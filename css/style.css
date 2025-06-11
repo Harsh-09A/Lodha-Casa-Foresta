@@ -155,7 +155,7 @@ main {
 }
 
 .carousel-indicators .active {
-  background-color: var(--colorSecondary) !important;
+  background-color: var(--colorPrimary) !important;
 }
 
 @media screen and (max-width: 600px) {
@@ -164,6 +164,12 @@ main {
   }
   .carousel-item .banner2 {
     content: url("../img/banners/mobile_banner02.jpg");
+  }
+  .carousel-item .banner3 {
+    content: url("../img/banners/mobile_banner03.jpg");
+  }
+  .carousel-item .banner4 {
+    content: url("../img/banners/mobile_banner04.jpg");
   }
 }
 
@@ -940,4 +946,9 @@ img.img-fluid.p-2.scale-up-center {
 .submit-btn:active {
   background-color: var(--colorPrimary) !important;
   border: none !important;
+}
+.carousel-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
 }
