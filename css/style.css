@@ -150,7 +150,8 @@ main {
 /* Slider */
 .carousel {
   overflow: hidden !important;
-  max-height: calc(100vh - 60px);
+  max-height: calc(100vh - 80px);
+  /* min-height: calc(100vh - 80px); */
 }
 
 .carousel-indicators .active {
@@ -159,10 +160,10 @@ main {
 
 @media screen and (max-width: 600px) {
   .carousel-item .banner1 {
-    content: url("../img/banners/mobile_banner1.jpg");
+    content: url("../img/banners/mobile_banner01.jpg");
   }
   .carousel-item .banner2 {
-    content: url("../img/banners/mobile_banner2.jpg");
+    content: url("../img/banners/mobile_banner02.jpg");
   }
 }
 
